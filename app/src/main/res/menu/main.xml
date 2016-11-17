@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:hack="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/ic_shuffle_black_24dp"
+        android:orderInCategory="1"
+        hack:showAsAction="always"
+        android:title="Shuffle"/>
+
+    <item
+        android:id="@+id/action_end"
+        android:icon="@drawable/ic_clear_black_24dp"
+        android:orderInCategory="2"
+        hack:showAsAction="always"
+        android:title="End"/>
+
+</menu>
